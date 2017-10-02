@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body{
+  background: #303030;
+}
+
+
+.calculator{
+  height:460px;
+  width:400px;
+  display: flex;
+  flex-direction: column;
+  align-item: center;
+  justify-content: center;
+  margin-left: 35%;
+  margin-top: 5%;
+  text-align: center;
+  padding: 10px;
+  background-color: #C8C8C8;
+  border-radius: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-size:1.1rem;
+-webkit-box-shadow: inset -21px -22px 36px -26px rgba(71,69,71,0.5);
+-moz-box-shadow: inset -21px -22px 36px -26px rgba(71,69,71,0.5);
+box-shadow: inset -21px -22px 36px -26px rgba(71,69,71,0.5);
+}
+.row{
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #C8C8C8;
+}
+.elem {
+  padding: 10px;
+  height: 25px;
+  width: 35px;
+  background: #484848;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  border-radius : 5px;
+  cursor:pointer;
+
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.zero {
+  width: 105px;
+  margin-left: 25px;
+}
+.equal {
+  height: 90px;
+  margin-top: -65px;
+
+}
+.three{
+  margin-left: -45px;
+}
+.entry{
+  margin-left:50px;
+  width: 300px;
+  height: 3.2rem;
+  font-size: 2.4rem;
+  background-color: orange;
+  text-align: right;
+  padding-right: 5px;
+  border-radius: 2px 2px 0px 0px;
+  overflow: hidden;
+
+}
+.history{
+  margin-left:50px;
+  width: 300px;
+  border-radius:  0px 0px 2px 2px;
+  height: 2rem;
+  font-size: 1.4rem;
+  background-color: orange;
+  padding-right: 5px;
+  margin-bottom: 15px;
+  text-align: right;
+  overflow: hidden;
+
+}
+.ac, .ce{
+ background-color:rgba(248,80,50,1);;
+}
